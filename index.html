@@ -1,14 +1,21 @@
-git status,
-Willkommen auf meiner Website!,
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interaktive Webseite</title>
 </head>
 <body>
-    >Hallo Welt, erstellt am 12.Januar 2024!</body>
+
+<button id="interaktionsButton">Hani klick mich!</button>
+
+<script>
+    // JavaScript-Code
+    document.getElementById('interaktionsButton').addEventListener('click', function() {
+        alert('Herzlich willkommen auf meiner interaktiven Webseite! Gruß Ralf');
+    });
+</script>
+
 </body>
 </html>
+
